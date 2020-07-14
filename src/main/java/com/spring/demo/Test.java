@@ -11,7 +11,7 @@ public class Test {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		System.out.println(context);
 		System.out.println(context.getBean(DemoService.class));
-		System.out.println("master V3.0.1.1");
+		System.out.println("V4.0.1.1");
 	}
 
 }
