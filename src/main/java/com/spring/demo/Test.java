@@ -8,7 +8,6 @@ import com.spring.demo.service.DemoService;
 public class Test {
 
 	public static void main(String[] args) {
-
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		System.out.println(context);
 		System.out.println(context.getBean(DemoService.class));
